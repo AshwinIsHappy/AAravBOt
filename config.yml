@@ -165,15 +165,15 @@ matchmaking:
   types:                                  # Matchmaking types of which one is selected before each game.
     rapid:                               # Arbitrary name of the matchmaking type. Names must be unique.
       tc: 10+0 
-      min_rating_diff: 300                 # Minimum rating distance to opponent. Default: 0
+      min_rating_diff: 0                 # Minimum rating distance to opponent. Default: 0
       max_rating_diff: 1000               # Maximum rating distance to opponent. Default: 10000
     blitz:
       tc: 3+0
-      min_rating_diff: 300                 # Minimum rating distance to opponent. Default: 0
+      min_rating_diff: 0                 # Minimum rating distance to opponent. Default: 0
       max_rating_diff: 1000               # Maximum rating distance to opponent. Default: 10000
     bullet:
       tc: 1+0
-      min_rating_diff: 300                 # Minimum rating distance to opponent. Default: 0
+      min_rating_diff: 0                 # Minimum rating distance to opponent. Default: 0
       max_rating_diff: 1000               # Maximum rating distance to opponent. Default: 10000
     Hyper:
       tc: 0.5+0
