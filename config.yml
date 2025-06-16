@@ -182,7 +182,7 @@ matchmaking:
 # Time control in initial_minutes+increment_seconds format.
     casual_chess960:
       tc: 0.5+1
-      rated: true
+      rated: false
       variant: chess960
 #   optional_settings:
 #     rated: true                         # Whether matchmaking should play rated games. Default: true
