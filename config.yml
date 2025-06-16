@@ -159,7 +159,7 @@ challenge:                                # Incoming challenges. (Commenting all
 #   - rated                               # Rated games
 
 matchmaking:
-  delay: 60                               # Time in seconds the bot must be idle before a new challenge is started.
+  delay: 180                               # Time in seconds the bot must be idle before a new challenge is started.
   timeout: 30                             # Time until a challenge is canceled.
   selection: cyclic                       # Matchmkaing type selection is one of "weighted_random", "sequential" or "cyclic
   types:                                  # Matchmaking types of which one is selected before each game.
@@ -177,7 +177,7 @@ matchmaking:
       max_rating_diff: 1000               # Maximum rating distance to opponent. Default: 10000
     Hyper:
       tc: 0.5+0
-      min_rating_diff: 300                 # Minimum rating distance to opponent. Default: 0
+      min_rating_diff: 0                 # Minimum rating distance to opponent. Default: 0
       max_rating_diff: 1000               # Maximum rating distance to opponent. Default: 10000
 # Time control in initial_minutes+increment_seconds format.
     casual_chess960:
