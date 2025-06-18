@@ -168,10 +168,16 @@ matchmaking:
   types:                                  # Matchmaking types of which one is selected before each game.
     blitz:
       tc: 3+0
+      min_rating_diff: 400                # Minimum rating distance to opponent. Default: 0
+      max_rating_diff: 1000               # Maximum rating distance to opponent. Default: 10000
     bullet:
       tc: 1+0
+      min_rating_diff: 400                # Minimum rating distance to opponent. Default: 0
+      max_rating_diff: 1000               # Maximum rating distance to opponent. Default: 10000
     Hyper:
       tc: 0.5+0
+      min_rating_diff: 400                # Minimum rating distance to opponent. Default: 0
+      max_rating_diff: 1000               # Maximum rating distance to opponent. Default: 10000
     casual_chess960:
       tc: 0.5+1
       variant: chess960
