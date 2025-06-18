@@ -156,7 +156,7 @@ challenge:                                # Incoming challenges. (Commenting all
 #   - 25+0
   bot_modes:                              # Game modes to accept against BOTs.
     - casual
-    - rated 
+     
                                    # Rated games
   human_modes:                            # Game modes to accept against humans.
     - casual                              # Unrated games.
