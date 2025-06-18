@@ -166,15 +166,8 @@ matchmaking:
   timeout: 30                             # Time until a challenge is canceled.
   selection: cyclic                       # Matchmkaing type selection is one of "weighted_random", "sequential" or "cyclic
   types:                                  # Matchmaking types of which one is selected before each game.
-    blitz:
-      tc: 3+0
-    bullet:
-      tc: 1+0
     Hyper:
       tc: 0.5+0
-    casual_chess960:
-      tc: 0.5+1
-      variant: chess960
 #   optional_settings:
 #     rated: true                         # Whether matchmaking should play rated games. Default: true
 #     variant: standard                   # Chess variant (https://lichess.org/variant) to challenge. Default: standard
