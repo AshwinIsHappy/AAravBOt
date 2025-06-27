@@ -184,10 +184,10 @@ messages:
   #   {cpu} to insert CPU information
   #   {ram} to insert RAM size
   # Any other words in curly braces will be removed.
-  greeting: "Get ready, because I'm gonna D3STR0Y you!"                                                              # Message sent to the opponent at the beginning of a game.
-  goodbye: "Welp, GG's buddy. See ya' later!"                                             # Message sent to the opponent after the end of a game.
-  greeting_spectators: "Here weee goo! Type !help for a list of commands I can respond to."                            # Message sent to the spectators at the beginning of a game.
-  goodbye_spectators: "Thanks for watching! Did you have fUn?"                                           # Message sent to the spectators after the end of a game.
+  greeting: "From the deepest trench, I rise. Let the currents decide our fate."                                                              # Message sent to the opponent at the beginning of a game.
+  goodbye: "Drift well, traveler of the chessboard. OceanicMegalord awaits your return."                                             # Message sent to the opponent after the end of a game.
+  greeting_spectators: "From the deepest trench, I rise. Let the currents decide our fate."                            # Message sent to the spectators at the beginning of a game.
+  goodbye_spectators: "Drift well, traveler of the chessboard. OceanicMegalord awaits your return."                                           # Message sent to the spectators after the end of a game.
 
 # whitelist:                              # List of users whose challenges are always accepted.
 #   - Username1
